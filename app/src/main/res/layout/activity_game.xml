@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game"
+    android:background="@drawable/bg_game">
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exit" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/logo"
+        app:layout_constraintStart_toStartOf="@+id/logo"
+        app:layout_constraintTop_toBottomOf="@+id/logo">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/plate_1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/plate_5"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_6"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_7"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_8"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/plate_9"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_10"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_11"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_12"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/plate_13"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_14"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_15"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+            <ImageView
+                android:id="@+id/plate_16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/close"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="330dp" />
+        </LinearLayout>
+        
+        
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
